@@ -15,7 +15,7 @@ class TinyPNG
         @uri = URI.parse("https://api.tinypng.com/shrink")
         @http = Net::HTTP.new(uri.host, uri.port)
         self.http.use_ssl = true
-        @key = "AyGiwEohlDjrwb56SnwT9JSBgYqEb3qO"
+        @key = "<YOUR API KEY HERE>"
         
         # Uncomment below if you have trouble validating our SSL certificate.
         # Download cacert.pem from: http://curl.haxx.se/ca/cacert.pem
