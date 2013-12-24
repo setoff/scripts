@@ -1,6 +1,6 @@
 Scripts
 =======
-TinyPNG script allow you to use tinypng.com service. <br>
+TinyPNG script allow you to use [tinypng.com](https://tinypng.com) service. <br>
 Details: [https://tinypng.com/developers](https://tinypng.com/developers).
 
 Script help:
