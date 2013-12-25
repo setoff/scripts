@@ -49,8 +49,9 @@ def browseDirectory(dirname, processor)
         end
 
         absPath = dirname + "/" + filename
-        if File.directory? filename
-            browseDirectory absPath
+        if File.directory? absPath
+            browseDirectory(absPath, processor)
+	    next
         end
         
         output = "_t_" + filename
@@ -97,9 +98,6 @@ OptionParser.new do |opts|
         exit
     end
 end.parse!
-
-p options
-p ARGV
 
 processor = TinyPNG.new
 if (options[:apply])
