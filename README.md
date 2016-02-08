@@ -22,3 +22,7 @@ Additional gems to install:
 Make iOS app icons script generates all app icon sizes from one file. For better results source file should be sized 1024x1024.
 
 This script use [ImageMagick's](http://www.imagemagick.org/index.php) [convert](http://www.imagemagick.org/script/convert.php) tool. Installation instructions available [here](http://www.imagemagick.org/script/binary-releases.php).
+
+###mandesc.sh###
+Prints first several lines of man page of every installed tool.
+
